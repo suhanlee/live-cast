@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Stream url:</strong>
+  <%= @room.stream_url %>
+</p>
+
+<p>
+  <strong>Room name:</strong>
+  <%= @room.room_name %>
+</p>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>
